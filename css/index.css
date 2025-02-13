@@ -22,12 +22,18 @@
     gap: 1.8rem;
 }
 
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
 .hero{
     height: 60vh;
     display: flex;
     align-items: center;
-    padding: 1rem 2rem;
-    margin: 15px 0;
+    padding: 1.8rem 2rem;
+    margin: 18px 0;
 }
 
 .hero-text{
@@ -85,11 +91,4 @@
     left: 110px;
 }
 
-hr {
-    border: none;           
-    height: 0.5px;            /* Thickness of the line */
-    background-color: #000; /* Color of the line */
-    width: 90%;             /* Adjust width */
-    margin: 20px auto;      /* Centers the line */
-  }
   

@@ -9,3 +9,11 @@ body {
     font-optical-sizing: auto;
     font-weight: 200;
   }
+
+hr {
+    border: none;           
+    height: 0.5px;            /* Thickness of the line */
+    background-color: #000; /* Color of the line */
+    width: 90%;             /* Adjust width */
+    margin: 20px auto;      /* Centers the line */
+  }
