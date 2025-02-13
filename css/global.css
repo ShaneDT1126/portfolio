@@ -17,3 +17,7 @@ hr {
     width: 90%;             /* Adjust width */
     margin: 20px auto;      /* Centers the line */
   }
+
+html {
+  scroll-behavior: smooth;
+}
