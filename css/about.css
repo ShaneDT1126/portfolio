@@ -38,3 +38,70 @@
     font-size: 14px;
     color: #000;
 }
+
+@media (max-width: 1280px) and (min-width: 600px)  {
+
+    .about-wrapper {
+        height: 150vh;
+    }
+
+    .bulletin-board {
+        flex-direction: column;
+        height: 130vh;
+        gap: 1.5rem;
+    }
+
+    .card {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-section {
+        gap: 1.5rem;
+        padding: 0 1.5rem;
+    }
+
+    .left {
+        padding-top: 1.5rem;
+    }
+
+    .right {
+        padding-bottom: 1.5rem;
+    }
+}
+
+
+@media (max-width: 480px) and (min-width: 320px) {
+    .about-wrapper {
+        height: 200vh;
+    }
+
+    .bulletin-board {
+        flex-direction: column;
+        height: 180vh;
+        gap: 1.5rem;
+    }
+
+    .card {
+        justify-content: center;
+        align-items: center;
+        font-size: 0.9rem;
+    }
+
+    .about-section {
+        gap: 1.5rem;
+        padding: 0 1.5rem;
+    }
+
+    .left {
+        padding-top: 1.5rem;
+    }
+
+    .right {
+        padding-bottom: 1.5rem;
+    }
+
+    #cit a{
+        font-size: 0.8rem;
+    }
+}
