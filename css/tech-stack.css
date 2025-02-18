@@ -7,11 +7,18 @@
     justify-content: space-around;
 }
 
+.skill-card{
+    transition: transform 0.2s ease;
+}
 
 .skill-card > img{
     width: 80px;
     height: 80px;
 }
+
+.skill-card:hover {
+    transform: scale(1.1);
+  }
 
 .skill-intro{
     display: flex;
