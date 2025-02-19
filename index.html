@@ -237,7 +237,7 @@
     <div id="contact">
         <div class="contact-wrapper">
             <section class="contact-intro">
-                <h2>Contact Me</h2>
+                <h2 id="contact-me-header">CONTACT ME</h2>
                 <p>
                     If you have any questions, suggestions, or just want <br>
                     to say hi, feel free to contact me. I am always open to new opportunities.
@@ -245,12 +245,13 @@
             </section>
             <section class="contact-contents">
                 <div class="contact-left">
-                    <h4>Send me a message</h4>
-                    <p>
-                        Fill out the form below and I'll get back to you as soon as <br>
-                        possible.
-                    </p>
-                    <form action="#">
+                    <div class="contact-form-intro">
+                        <h3>Send me a message</h3>
+                        <p>
+                            Fill out the form below and I'll get back to you as soon as possible.
+                        </p>
+                    </div>
+                    <form action="#" class="contact-form">
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" required placeholder="John Doe">
@@ -263,12 +264,12 @@
                             <label for="message">Message</label>
                             <textarea id="message" name="message" required placeholder="Type your message here..."></textarea>
                         </div>
-                        <button type="submit">Send</button>
+                        <button type="submit" class="btn-submit">Submit</button>
                     </form>
                 </div>
                 <div class="contact-right">
                     <div class="contact-right-intro">
-                        <h4>Get in Touch</h4>
+                        <h3>Get in Touch</h3>
                         <p>
                             Feel free to reach out to me through the following platforms.
                         </p>
